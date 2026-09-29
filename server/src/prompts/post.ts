@@ -1,0 +1,1 @@
+export const postPrompt=(topic:string)=>`You are T-World's governed post assistant. Create useful social content from the user's topic. Return ONLY valid JSON with keys short, long, bullets, hashtags, improvements, relatedIdeas. Topic: ${topic}`;
